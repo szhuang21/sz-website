@@ -21,7 +21,7 @@ const Story = () => {
 
         <div className="">
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            My journey into computer science began humbly when my Asian parents made me do Khan
+            My journey into computer science began humbly when my parents made me do Khan
             Academy at the library as a kid. I quickly grew bored of the pre-algebra problems I was
             assigned, and then stumbled upon the Intro to JavaScript tutorial. The first challenge
             was to draw a “simple” snowman using JavaScript. Despite my stubborn efforts, it was a
