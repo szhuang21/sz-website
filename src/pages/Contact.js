@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
+import Alert from '../components/Alert';
 import submitted from '../images/submitted.gif';
 
 const Contact = () => {
@@ -108,6 +109,7 @@ const Contact = () => {
 
   return (
     <div>
+      <Alert text="🚧 mobile view under construction 🚧" />
       <Header />
 
       <div className="pt-20 pb-8" style={{ paddingLeft: '20%', paddingRight: '20%' }}>

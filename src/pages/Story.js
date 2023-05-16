@@ -3,9 +3,11 @@ import Header from '../components/Header';
 import Cover from '../images/cover.png';
 import Parents from '../images/parents.jpg';
 import Footer from '../components/Footer';
+import Alert from '../components/Alert';
 const Story = () => {
   return (
     <div>
+      <Alert text="🚧 mobile view under construction 🚧" />
       <Header />
       <div style={{ paddingLeft: '8%', paddingRight: '8%' }} className="pb-12">
         <div className="flex justify-start items-center">

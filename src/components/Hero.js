@@ -4,37 +4,39 @@ import Socials from '../components/Socials.js';
 
 const Hero = () => {
   return (
-    <div
-      className="pt-40 flex justify-start items-center"
-      style={{ paddingLeft: '8%', paddingRight: '8%' }}>
-      <div className="w-1/2 pr-20">
-        <div className="text-2xl text-left font-bold font-poppins">
-          👋 I&apos;m Sophia <br />
+    <div>
+      <div
+        className="pt-28 flex justify-start items-center"
+        style={{ paddingLeft: '8%', paddingRight: '8%' }}>
+        <div className="w-1/2 pr-20">
+          <div className="text-2xl text-left font-bold font-poppins">
+            👋 I&apos;m Sophia <br />
+          </div>
+          <div className="text-base text-left pt-8 font-montserrat text-gray-700">
+            I&apos;m a curious and enthusiastic student who loves exploring new technologies and
+            trying out different coding projects!
+          </div>
+          <div className="text-base text-left pt-4 font-montserrat text-gray-600">
+            SparkNotes of my life currently:
+          </div>
+          <div className="text-base text-left pt-4 font-montserrat text-gray-700">
+            🤗 CS Student @ UIUC
+          </div>
+          <div className="text-base text-left pt-4 font-montserrat text-gray-700">
+            🚗 Intern @ Uber in SF
+          </div>
+          <div className="text-base text-left pt-4 font-montserrat text-gray-700">
+            💻 Product Manager @ Hack4Impact
+          </div>
+          <div className="text-base text-left pt-4 font-montserrat text-gray-700">
+            💁‍♀️ Course Assistant/PM for CS124H
+          </div>
         </div>
-        <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-          I&apos;m a curious and enthusiastic student who loves exploring new technologies and
-          trying out differnt coding projects!
-        </div>
-        <div className="text-base text-left pt-4 font-montserrat text-gray-600">
-          SparkNotes of my life currently:
-        </div>
-        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
-          🤗 CS Student @ UIUC
-        </div>
-        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
-          🚗 Intern @ Uber in SF
-        </div>
-        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
-          💻 Product Manager @ Hack4Impact
-        </div>
-        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
-          💁‍♀️ Course Assistant/PM for CS124H
-        </div>
-        <Socials textColor="pink" />
-      </div>
 
-      <div className="w-1/2">
-        <img src={Headshot} alt="Headshot" />
+        <div className="w-1/2">
+          <img src={Headshot} alt="Headshot" />
+          <Socials textColor="pink" />
+        </div>
       </div>
     </div>
   );

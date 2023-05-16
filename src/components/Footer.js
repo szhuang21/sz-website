@@ -1,12 +1,12 @@
 import React from 'react';
-import { faLinkedin, faInstagram, faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faSpotify, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import Collage from '../images/collage.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-cover" style={{ backgroundImage: `url(${Collage})` }}>
+    <footer className="bg-cover mt-8" style={{ backgroundImage: `url(${Collage})` }}>
       <div className="backdrop-brightness-75">
         <div className="pt-44 pb-44 mt-4 pl-8 text-center bottom-0 w-full">
           <p className="text-white text-left font-bold font-poppins">made with 💕</p>
@@ -20,6 +20,9 @@ const Footer = () => {
               </a>
               <a href="https://www.instagram.com/sophia.codes/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className="hover:text-pink-400" size="2x" />
+              </a>
+              <a href="https://github.com/szhuang21" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} className="hover:text-pink-400" size="2x" />
               </a>
               <a
                 href="https://open.spotify.com/user/sophiaxiezhuang?si=efa69e7c7d514610"

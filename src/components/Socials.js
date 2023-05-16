@@ -1,5 +1,5 @@
 import React from 'react';
-import { faLinkedin, faInstagram, faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faSpotify, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,12 +7,15 @@ const Socials = () => {
   return (
     <div>
       {' '}
-      <div className="text-right pt-8 space-x-4 text-black">
+      <div className="text-center pt-8 space-x-4 text-black">
         <a href="https://www.linkedin.com/in/sophiazhuang5/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className="hover:text-pink-400" size="2x" />
         </a>
         <a href="https://www.instagram.com/sophia.codes/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="hover:text-pink-400" size="2x" />
+        </a>
+        <a href="https://github.com/szhuang21" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faGithub} className="hover:text-pink-400" size="2x" />
         </a>
         <a
           href="https://open.spotify.com/user/sophiaxiezhuang?si=efa69e7c7d514610"
