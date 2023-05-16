@@ -23,33 +23,36 @@ const Story = () => {
 
         <div className="">
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            My journey into computer science began humbly when my parents made me do Khan Academy at
-            the library as a kid. I quickly grew bored of the pre-algebra problems I was assigned,
-            and then stumbled upon the Intro to JavaScript tutorial. The first challenge was to
-            craft a “simple” snowman using JavaScript. Despite my stubborn efforts, it was a
-            ~struggle. When I finally saw the 3 circles neatly fall into place, I was more satisfied
-            that I&apos;d finished the problem than amazed by what I&apos;d done. Unfortunately,
-            this snowman wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in
-            the world of CS. Khan Academy thought it would be fun to ask me to throw some animation
-            magic into the mix after the struggle of simply drawing them—and that was the precise
-            instant when I decided to gracefully retire from the world of coding.
+            My incredible adventure in computer science kicked off in the most humble way
+            possible—thanks to my lovely parents, I was forced to endure the wonders of Khan Academy
+            at the library. I quickly grew bored of the pre-algebra problems I was assigned, and
+            then stumbled upon the Intro to JavaScript tutorial. The first challenge was to craft a
+            “simple” snowman using JavaScript. Despite my stubborn efforts, it was a ~struggle. When
+            I finally saw the 3 circles neatly fall into place, I was more satisfied that I&apos;d
+            finished the problem than amazed by what I&apos;d done. Unfortunately, this snowman
+            wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in the world of
+            CS. When the tutorial thought it would be fun to ask me to throw some animation magic
+            into the mix after the struggle of simply drawing them—and that was the precise instant
+            when I decided to gracefully retire from the world of coding.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            Fast forward to high school, where I took AP Computer Science. Despite my initial
-            enthusiasm, I soon found myself looking for excuses to leave class early, whether it was
-            for a golf tournament or golf practice. I scraped by that class doing the bare minimum,
-            feeling imposter syndrome creep up my neck with every new concept we learned. (I realize
-            I’m making it seem like I love anything but coding, but I&apos;m getting to my point I
-            promise)
+            Fast forward to the glorious days of high school, where I embarked on an epic adventure
+            known as AP Computer Science. Despite my initial enthusiasm, I soon found myself looking
+            for excuses to leave class early, whether it was for a golf tournament or golf practice.
+            I scraped by that class doing the bare minimum, feeling imposter syndrome creep up my
+            neck with every new concept we learned. (I realize I’m making it seem like I love
+            anything but coding, but I&apos;m getting to my point I promise)
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            My journey in CS has been a rollercoaster ride of ups and downs, ebbs and flows.
-            It&apos;s been a consistent cycle of trying it out because it seemed interesting, giving
-            up because it was too difficult, and then being lured back in again and again. Before my
+            My journey in CS has been a rollercoaster ride of ups and downs, constantly ebbing and
+            flowing. I&apos;ve had this delightful habit of trying it out because it seemed
+            intriguing, giving up because it felt too tough, and then getting irresistibly drawn
+            back in over and over again (this is starting to sound like a toxic ex). Before my
             freshman year of college, I re-learned what we had been taught in AP Computer Science so
             that I could proficiency out of the intro sequence class at UIUC. Learning at my own
-            pace allowed me to appreciate the logic and complexity of code in a whole new way, and
-            much to my surprise, I passed the proficiency test. Proficiencying out of CS124 was both
+            pace turned out to be an absolute game-changer, allowing me to truly appreciate the
+            sheer logic and mind-boggling complexity of code in a whole new light, and much to my
+            surprise, I passed the proficiency test. Proficiencying out of CS124 was simultaneously
             the best and worst decision I&apos;ve ever made. The first semester was an absolute time
             !! I went from writing print statements in BlueJ to managing dynamic memory and using
             DFS to navigate graphs in C++. I joined a couple of CS clubs, learned how to use GitHub
