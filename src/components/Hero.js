@@ -13,6 +13,9 @@ const Hero = () => {
             👋 I&apos;m Sophia <br />
           </div>
           {/* <div className="text-base text-left pt-8 font-montserrat text-gray-700">
+            Enter some inpsirational b
+          </div> */}
+          {/* <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             I&apos;m a curious and enthusiastic student who loves exploring new technologies and
             trying out different coding projects!
           </div> */}
@@ -35,7 +38,7 @@ const Hero = () => {
             🛠️{' '}
             <a href="https://www.youtube.com/shorts/LMpDOsKHEuM">
               {' '}
-              How I Built My Website (a series)
+              How I Built This Website (an ongoing series)
             </a>
           </div>
         </div>
