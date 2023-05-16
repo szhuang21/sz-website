@@ -1,29 +1,21 @@
-import React from "react";
-import Header from "../components/Header";
-import wcsImage from "../images/wcs.jpg";
-import h4iImage from "../images/h4i.jpg";
-import brink from "../images/brink.gif";
-import mood from "../images/mood.gif";
-import spartify from "../images/spartify.png";
-import webscraper from "../images/webscraper.png";
-import northwestern from "../images/northwestern.png";
-import ExperienceCard from "../components/ExperienceCard";
+import React from 'react';
+import brink from '../images/brink.gif';
+import mood from '../images/mood.gif';
+import ExperienceCard from '../components/ExperienceCard';
 
 const Extracurriculars = () => {
   return (
     <div>
-      <div class="text-xl text-left font-bold font-poppins pb-8">
-        👩‍💻 Extracurriculars
-      </div>
+      <div className="text-xl text-left font-bold font-poppins pb-8">👩‍💻 Extracurriculars</div>
 
-      <div class="flex flex-wrap">
+      <div className="flex flex-wrap">
         <ExperienceCard
           name="Brink"
           blurb="Working on accessible voting guide for the nonprofit Brink."
           about="As a software developer for Hack4Impact this year, my team and I got to work with the nonprofit, Brink, to develop an accessible voting website. Some features that I built were a candidate's endorsements accordion, the voting guidelines page, the polling places page, and more. This coming semester I will be working a product manager and lead at Hack4Impact."
           website="https://web.brinkapp.co/landing"
           github="https://github.com/stephen-puiszis/brink-web"
-          skills={["React", "TypeScript", "Product"]}
+          skills={['React', 'TypeScript', 'Product']}
           image={brink}
         />
 
@@ -35,7 +27,7 @@ const Extracurriculars = () => {
           }
           website="shorturl.at/qvB59"
           github="https://github.com/ts549/Spotifind"
-          skills={["React", "Tailwind", "NLP", "Backend"]}
+          skills={['React', 'Tailwind', 'NLP', 'Backend']}
           image={mood}
         />
 
@@ -47,7 +39,7 @@ const Extracurriculars = () => {
           }
           website="shorturl.at/qvB59"
           github="https://github.com/ts549/Spotifind"
-          skills={["React", "Tailwind", "NLP", "Backend"]}
+          skills={['React', 'Tailwind', 'NLP', 'Backend']}
           image={mood}
         />
       </div>

@@ -1,9 +1,9 @@
-import "../App.css";
-import Hero from "../components/Hero"
-import Header from "../components/Header";
-import ExperienceTimeline from "../components/ExperienceTimeline";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
+import '../App.css';
+import Hero from '../components/Hero';
+import Header from '../components/Header';
+import ExperienceTimeline from '../components/ExperienceTimeline';
+import Projects from '../components/Projects';
+import Footer from '../components/Footer';
 function HomePage() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ function HomePage() {
       <Hero />
       <ExperienceTimeline />
       <Projects />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

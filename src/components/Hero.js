@@ -1,39 +1,39 @@
-import React from "react";
-import Headshot from "../images/headshot.png";
-import Socials from "./Socials";
+import React from 'react';
+import Headshot from '../images/headshot.png';
+import Socials from '../components/Socials.js';
+
 const Hero = () => {
   return (
     <div
-      class="pt-40 flex justify-start items-center"
-      style={{ paddingLeft: "8%", paddingRight: "8%" }}
-    >
-      <div class="w-1/2 pr-20">
-        <div class="text-2xl text-left font-bold font-poppins">
+      className="pt-40 flex justify-start items-center"
+      style={{ paddingLeft: '8%', paddingRight: '8%' }}>
+      <div className="w-1/2 pr-20">
+        <div className="text-2xl text-left font-bold font-poppins">
           👋 I'm Sophia <br />
         </div>
-        <div class="text-base text-left pt-8 font-montserrat text-gray-700">
-          I'm a curious and enthusiastic student who loves exploring new
-          technologies and trying out differnt coding projects!
+        <div className="text-base text-left pt-8 font-montserrat text-gray-700">
+          I'm a curious and enthusiastic student who loves exploring new technologies and trying out
+          differnt coding projects!
         </div>
-        <div class="text-base text-left pt-4 font-montserrat text-gray-600">
+        <div className="text-base text-left pt-4 font-montserrat text-gray-600">
           SparkNotes of my life currently:
         </div>
-        <div class="text-base text-left pt-4 font-montserrat text-gray-700">
+        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
           🤗 CS Student @ UIUC
         </div>
-        <div class="text-base text-left pt-4 font-montserrat text-gray-700">
+        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
           🚗 Intern @ Uber in SF
         </div>
-        <div class="text-base text-left pt-4 font-montserrat text-gray-700">
+        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
           💻 Product Manager @ Hack4Impact
         </div>
-        <div class="text-base text-left pt-4 font-montserrat text-gray-700">
+        <div className="text-base text-left pt-4 font-montserrat text-gray-700">
           💁‍♀️ Course Assistant/PM for CS124H
         </div>
         <Socials textColor="pink" />
       </div>
 
-      <div class="w-1/2">
+      <div className="w-1/2">
         <img src={Headshot} alt="Headshot" />
       </div>
     </div>

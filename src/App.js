@@ -1,10 +1,10 @@
-import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Story from "./pages/Story";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Story from './pages/Story';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 /**
  * provides routing to different pages
  */
@@ -28,7 +28,6 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-      
     </Router>
   );
 }
