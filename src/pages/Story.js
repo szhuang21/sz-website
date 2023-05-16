@@ -138,6 +138,7 @@ const Story = () => {
             <div className="text-base text-left pt-4 font-montserrat text-gray-700">
               🤾‍♀️ Working Out
             </div>
+            <div className="text-base text-left pt-4 font-montserrat text-gray-700">🏌️‍♀️ Golfing</div>
             <div className="text-base text-left pt-4 font-montserrat text-gray-700">🍔 Eating</div>
           </div>
 
