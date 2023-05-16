@@ -113,7 +113,7 @@ const Contact = () => {
       <div className="pt-20 pb-8" style={{ paddingLeft: '20%', paddingRight: '20%' }}>
         <div className="max-w-lg">
           <div className="text-3xl w-full text-left font-medium">
-            Nice to meet you! Let's get in touch 👋
+            Nice to meet you! Let&apos;s get in touch 👋
           </div>
         </div>
 

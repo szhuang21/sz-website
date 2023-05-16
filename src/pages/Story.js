@@ -26,40 +26,40 @@ const Story = () => {
             assigned, and then stumbled upon the Intro to JavaScript tutorial. The first challenge
             was to draw a “simple” snowman using JavaScript. Despite my stubborn efforts, it was a
             ~struggle. When I finally saw the 3 circles neatly fall into place, I was more satisfied
-            that I’d finished the problem than amazed by what I’d done. Unfortunately, this snowman
-            wasn't quite the "Hello World!" moment I was hoping for in the world of CS. I did a
-            couple more of the challenges, but gave up once the challenges started asking me to
-            animate the circles.
+            that I&apos;d finished the problem than amazed by what I&apos;d done. Unfortunately,
+            this snowman wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in
+            the world of CS. I did a couple more of the challenges, but gave up once the challenges
+            started asking me to animate the circles.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             Fast forward to high school, where I took AP Computer Science. Despite my initial
             enthusiasm, I soon found myself looking for excuses to leave class early, whether it was
             for a golf tournament or golf practice. I scraped by that class doing the bare minimum,
             feeling imposter syndrome creep up my neck with every new concept we learned. (I realize
-            I’m making it seem like I love anything but coding, but I’m getting to my point I
+            I’m making it seem like I love anything but coding, but I&apos;m getting to my point I
             promise)
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            My journey in CS has been a rollercoaster ride of ups and downs, ebbs and flows. It's
-            been a consistent cycle of trying it out because it seemed interesting, giving up
-            because it was too difficult, and then being lured back in again and again. Before my
+            My journey in CS has been a rollercoaster ride of ups and downs, ebbs and flows.
+            It&apos;s been a consistent cycle of trying it out because it seemed interesting, giving
+            up because it was too difficult, and then being lured back in again and again. Before my
             freshman year of college, I re-learned what we had been taught in AP Computer Science so
             that I could proficiency out of the intro sequence class at UIUC. Learning at my own
             pace allowed me to appreciate the logic and complexity of code in a whole new way, and
             much to my surprise, I passed the proficiency test. Proficiencying out of CS124 was both
-            the best and worst decision I've ever made. The first semester was an absolute time !! I
-            went from writing print statements in BlueJ to managing dynamic memory and using DFS to
-            navigate graphs in C++. I joined a couple of CS clubs, learned how to use GitHub for the
-            first time, helped create a website for startups on campus using React, kind of built a
-            Discord chat bot, and did a ton of discrete math.
+            the best and worst decision I&apos;ve ever made. The first semester was an absolute time
+            !! I went from writing print statements in BlueJ to managing dynamic memory and using
+            DFS to navigate graphs in C++. I joined a couple of CS clubs, learned how to use GitHub
+            for the first time, helped create a website for startups on campus using React, kind of
+            built a Discord chat bot, and did a ton of discrete math.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             At first, I was extremely lost and struggled to keep up with all the new terminology and
             concepts. But eventually, I got used to the feeling of being in unfamiliar territory and
             started to worry less about not knowing everything, and instead on what I could learn.
             This mindset shift was a game-changer for me because once I admitted to myself that I
-            didn't know shit, I became more open to learning, asking for help, and exploring new
-            ideas.
+            didn&apos;t know shit, I became more open to learning, asking for help, and exploring
+            new ideas.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             After doing a few projects Freshmen year like Sp-ART-ify, a website that turns someone’s
@@ -69,7 +69,7 @@ const Story = () => {
             was pushed to pick up new technologies from Figma to Tailwind to JUnit to NodeJS, and
             realized that the state of discomfort that I felt before learning something new was a
             sign of room to grow. I built a web scraper that combines all of Liberty Mutual’s
-            platform’s search results into 1 search engine and a website that takes in a spoken
+            platform&apos;s search results into 1 search engine and a website that takes in a spoken
             phrase and uses NLP and sentiment analysis to transform it into a mood based Spotify
             playlist.
           </div>
@@ -79,8 +79,8 @@ const Story = () => {
             a software developer and product manager lead at Hack4Impact (H4I) and teach freshmen
             how to build their own projects as a Course Assistant for CS124 Honors. Overall, my
             journey in CS has been one of growth and discovery, and I am eager and passionate to
-            continue learning more. As I’m navigating through the field, I’ve realized how much I
-            truly love coding. I strive to create meaningful, empathetic, and user-oriented
+            continue learning more. As I&apos;m navigating through the field, I&apos;ve realized how
+            much I truly love coding. I strive to create meaningful, empathetic, and user-oriented
             solutions that will change the world.
           </div>
         </div>
@@ -88,7 +88,9 @@ const Story = () => {
           className="pt-16 flex justify-start items-center"
           style={{ paddingLeft: '2%', paddingRight: '2%' }}>
           <div className="w-1/2 pr-20">
-            <div className="text-lg text-left font-bold font-poppins">What I'm Up to Currently</div>
+            <div className="text-lg text-left font-bold font-poppins">
+              What I&apos;m Up to Currently
+            </div>
             <div className="text-base text-left pt-4 font-montserrat text-gray-700">
               📱 Coding Content & Tutorials @sophia.codes
             </div>

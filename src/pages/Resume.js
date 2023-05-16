@@ -47,7 +47,6 @@ const Resume = () => {
       <Header />
 
       <form onSubmit={handleSubmit} className="mt-5 ml-5">
-
         {passwordIsCorrect ? (
           <div>
             <div className="text-xl text-left font-bold font-poppins pb-8">🔐 Resume</div>
