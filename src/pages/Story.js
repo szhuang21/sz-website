@@ -33,7 +33,7 @@ const Story = () => {
             wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in the world of
             CS. The tutorial&apos;s mischievous twist of tossing in some animation magic after the
             battle of simply drawing them was the exact moment when I decided to gracefully retire
-            from the coding world.
+            from the world of coding.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             Fast forward to the glorious days of high school, where I embarked on an epic adventure
