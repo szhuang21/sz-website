@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ paddingLeft: '8%', paddingRight: '8%' }}>
       <div className="w-1/2 pr-20">
         <div className="text-2xl text-left font-bold font-poppins">
-          👋 I&apos;m Sophia <br />
+          👋 I&apos;m Hungry <br />
         </div>
         <div className="text-base text-left pt-8 font-montserrat text-gray-700">
           I&apos;m a curious and enthusiastic student who loves exploring new technologies and
