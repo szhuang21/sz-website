@@ -11,7 +11,9 @@ const Header = () => {
     <div style={{ paddingLeft: '5%', paddingRight: '5%' }}>
       <nav className="sm:px-4 py-2.5">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="/" className="flex items-center">
+          <a
+            href="https://www.youtube.com/watch?v=CDo1G5IsA68&ab_channel=SophiaZhuang"
+            className="flex items-center">
             <div className="self-center text-xl font-semibold font-domine">SZ.</div>
           </a>
           <button
