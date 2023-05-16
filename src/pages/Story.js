@@ -21,14 +21,14 @@ const Story = () => {
 
         <div className="">
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            My journey into computer science began humbly when my parents made me do Khan
-            Academy at the library as a kid. I quickly grew bored of the pre-algebra problems I was
-            assigned, and then stumbled upon the Intro to JavaScript tutorial. The first challenge
-            was to draw a “simple” snowman using JavaScript. Despite my stubborn efforts, it was a
-            ~struggle. When I finally saw the 3 circles neatly fall into place, I was more satisfied
-            that I&apos;d finished the problem than amazed by what I&apos;d done. Unfortunately,
-            this snowman wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in
-            the world of CS. I did a couple more of the challenges, but gave up once the challenges
+            My journey into computer science began humbly when my parents made me do Khan Academy at
+            the library as a kid. I quickly grew bored of the pre-algebra problems I was assigned,
+            and then stumbled upon the Intro to JavaScript tutorial. The first challenge was to draw
+            a “simple” snowman using JavaScript. Despite my stubborn efforts, it was a ~struggle.
+            When I finally saw the 3 circles neatly fall into place, I was more satisfied that
+            I&apos;d finished the problem than amazed by what I&apos;d done. Unfortunately, this
+            snowman wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in the
+            world of CS. I did a couple more of the challenges, but gave up once the challenges
             started asking me to animate the circles.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
