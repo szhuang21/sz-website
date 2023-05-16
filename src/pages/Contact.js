@@ -163,7 +163,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   className="font-gloria-hallelujah w-full mr-5 py-2 px-3 mb-1 ml-0.5 text-xs rounded-lg shadow-sm text-gray-800 bg-neutral-100 leading-tight focus:outline-black"
-                  placeholder="hey it's sophia, leave a message behind <3"
+                  placeholder="leave a message behind <3"
                   type="text"
                   rows="6"
                   name="message"
