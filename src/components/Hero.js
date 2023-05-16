@@ -43,9 +43,18 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-1/2 font-montserrat text-gray-700">
           <img src={Headshot} alt="Headshot" />
           <Socials textColor="pink" />
+          <div className="mt-2">
+            <a
+              className="underline hover:text-pink-400"
+              href="https://github.com/szhuang21/sz-website">
+              source code for my website
+            </a>
+          </div>
+
+          <div className="text-xs">built using: react, tailwind, mongoDB, hosted on netlify</div>
         </div>
       </div>
     </div>
