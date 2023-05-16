@@ -31,9 +31,9 @@ const Story = () => {
             I finally saw the 3 circles neatly fall into place, I was more satisfied that I&apos;d
             finished the problem than amazed by what I&apos;d done. Unfortunately, this snowman
             wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in the world of
-            CS. When the tutorial thought it would be fun to ask me to throw some animation magic
-            into the mix after the struggle of simply drawing them—and that was the precise instant
-            when I decided to gracefully retire from the world of coding.
+            CS. The tutorial&apos;s mischievous twist of tossing in some animation magic after the
+            battle of simply drawing them was the exact moment when I gracefully decided to retire
+            from the coding world.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             Fast forward to the glorious days of high school, where I embarked on an epic adventure
@@ -60,12 +60,14 @@ const Story = () => {
             built a Discord chat bot, and did a ton of discrete math.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
-            At first, I was extremely lost and struggled to keep up with all the new terminology and
-            concepts. But eventually, I got used to the feeling of being in unfamiliar territory and
-            started to worry less about not knowing everything, and instead on what I could learn.
-            This mindset shift was a game-changer for me because once I admitted to myself that I
-            didn&apos;t know shit, I became more open to learning, asking for help, and exploring
-            new ideas.
+            My freshmen year self was like a bewildered squirrel in a bustling city, desperately
+            trying to navigate through new terminology and concepts, occasionally getting distracted
+            by shiny objects and questionable snacks along the way. But eventually, I came to this
+            brilliant revelation that I should just admit to myself that I didn&apos;t know shit. I
+            got used to the feeling of being in unfamiliar territory and started to worry less about
+            not knowing everything, and instead on what I could learn. This mindset shift was a
+            game-changer for me because I became more open to learning, asking for help, and
+            exploring new ideas.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             After doing a few projects Freshmen year like Sp-ART-ify, a website that turns someone’s
