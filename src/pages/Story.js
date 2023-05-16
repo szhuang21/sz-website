@@ -32,42 +32,40 @@ const Story = () => {
             finished the problem than amazed by what I&apos;d done. Unfortunately, this snowman
             wasn&apos;t quite the &quot;Hello World!&quot; moment I was hoping for in the world of
             CS. The tutorial&apos;s mischievous twist of tossing in some animation magic after the
-            battle of simply drawing them was the exact moment when I gracefully decided to retire
+            battle of simply drawing them was the exact moment when I decided to gracefully retire
             from the coding world.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             Fast forward to the glorious days of high school, where I embarked on an epic adventure
             known as AP Computer Science. Despite my initial enthusiasm, I soon found myself looking
             for excuses to leave class early, whether it was for a golf tournament or golf practice.
-            I scraped by that class doing the bare minimum, feeling imposter syndrome creep up my
-            neck with every new concept we learned. (I realize I’m making it seem like I love
-            anything but coding, but I&apos;m getting to my point I promise)
+            I managed to scrape by with minimal effort, experiencing imposter syndrome as each new
+            concept was introduced. (I realize I&apos;m making it seem like I love anything but
+            coding, but I&apos;m getting to my point I promise)
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             My journey in CS has been a rollercoaster ride of ups and downs, constantly ebbing and
             flowing. I&apos;ve had this delightful habit of trying it out because it seemed
             intriguing, giving up because it felt too tough, and then getting irresistibly drawn
-            back in over and over again (this is starting to sound like a toxic ex). Before my
-            freshman year of college, I re-learned what we had been taught in AP Computer Science so
-            that I could proficiency out of the intro sequence class at UIUC. Learning at my own
-            pace turned out to be an absolute game-changer, allowing me to truly appreciate the
-            sheer logic and mind-boggling complexity of code in a whole new light, and much to my
-            surprise, I passed the proficiency test. Proficiencying out of CS124 was simultaneously
-            the best and worst decision I&apos;ve ever made. The first semester was an absolute time
-            !! I went from writing print statements in BlueJ to managing dynamic memory and using
-            DFS to navigate graphs in C++. I joined a couple of CS clubs, learned how to use GitHub
-            for the first time, helped create a website for startups on campus using React, kind of
-            built a Discord chat bot, and did a ton of discrete math.
+            back in over and over again. Before my freshman year of college, I re-learned what we
+            had been taught in AP Computer Science so that I could proficiency out of the intro
+            sequence class at UIUC. Learning at my own pace turned out to be an absolute
+            game-changer, allowing me to truly appreciate the sheer logic and mind-boggling
+            complexity of code in a whole new light, and much to my surprise, I passed the
+            proficiency test. Proficiencying out of CS124 was simultaneously the best and worst
+            decision I&apos;ve ever made. The first semester was an absolute time !! I went from
+            writing print statements in BlueJ to managing dynamic memory and using DFS to navigate
+            graphs in C++. I joined a couple of CS clubs, learned how to use GitHub for the first
+            time, helped create a website for startups on campus using React, kind of built a
+            Discord chat bot, and did a ton of discrete math.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             My freshmen year self was like a bewildered squirrel in a bustling city, desperately
-            trying to navigate through new terminology and concepts, occasionally getting distracted
-            by shiny objects and questionable snacks along the way. But eventually, I came to this
-            brilliant revelation that I should just admit to myself that I didn&apos;t know shit. I
-            got used to the feeling of being in unfamiliar territory and started to worry less about
-            not knowing everything, and instead on what I could learn. This mindset shift was a
-            game-changer for me because I became more open to learning, asking for help, and
-            exploring new ideas.
+            trying to navigate through new terminology and concepts, dodging hurling obstacles left
+            and right, and occasionally getting distracted by questionable snacks along the way. But
+            eventually, I came to this brilliant revelation that I could just admit to myself that I
+            didn&apos;t know everything. Embracing the unfamiliar, I shifted my focus to learning,
+            asking for help, and exploring new ideas. This mindset shift changed everything for me.
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             After doing a few projects Freshmen year like Sp-ART-ify, a website that turns someone’s
@@ -85,11 +83,9 @@ const Story = () => {
             With each project I built, I gained more experience and open-mindedness to learn more.
             Today, I foster my passion for coding by building software solutions for non-profits as
             a software developer and product manager lead at Hack4Impact (H4I) and teach freshmen
-            how to build their own projects as a Course Assistant for CS124 Honors. Overall, my
-            journey in CS has been one of growth and discovery, and I am eager and passionate to
-            continue learning more. As I&apos;m navigating through the field, I&apos;ve realized how
-            much I truly love coding. I strive to create meaningful, empathetic, and user-oriented
-            solutions that will change the world.
+            how to build their own projects as a Course Assistant for CS124 Honors. My journey in CS
+            has been one of growth and discovery, and I&apos;m excited to continue learning and
+            making a positive impact through meaningful and empathetic solutions.
           </div>
         </div>
         <div
