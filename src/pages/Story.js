@@ -81,11 +81,12 @@ const Story = () => {
           </div>
           <div className="text-base text-left pt-8 font-montserrat text-gray-700">
             With each project I built, I gained more experience and open-mindedness to learn more.
-            Today, I foster my passion for coding by building software solutions for non-profits as
-            a software developer and product manager lead at Hack4Impact (H4I) and teach freshmen
-            how to build their own projects as a Course Assistant for CS124 Honors. My journey in CS
-            has been one of growth and discovery, and I&apos;m excited to continue learning and
-            making a positive impact through meaningful and empathetic solutions.
+            Most importantly, I realized how fun computer science really was. Today, I foster my
+            passion for coding by building software solutions for non-profits as a software
+            developer and product manager lead at Hack4Impact (H4I) and teach freshmen how to build
+            their own projects as a Course Assistant for CS124 Honors. My journey in CS has been one
+            of growth and discovery, and I&apos;m excited to continue learning and making a positive
+            impact through meaningful and empathetic solutions.
           </div>
         </div>
         <div
