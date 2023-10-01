@@ -119,7 +119,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="max-w-4xl">
+        <div className="max-w-4xl text-center">
           <form onSubmit={handleSubmit} className="mt-5">
             <div className="relative overflow-auto mb-1">
               <div className="flex space-x-4">

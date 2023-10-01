@@ -1,5 +1,5 @@
 import React from 'react';
-import Headshot from '../images/headshot.png';
+import Headshot from '../images/headshot2023.png';
 import Socials from '../components/Socials.js';
 
 const Hero = () => {
