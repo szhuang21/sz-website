@@ -1,5 +1,6 @@
 import '../App.css';
 import Hero from '../components/Hero';
+import NewHero from '../components/NewHero';
 import Header from '../components/Header';
 import ExperienceTimeline from '../components/ExperienceTimeline';
 import Projects from '../components/Projects';
@@ -11,7 +12,9 @@ function HomePage() {
       <Alert text="🚧 mobile view under construction 🚧" />
       <div className="App">
         <Header />
+
         <Hero />
+        <NewHero />
         <ExperienceTimeline />
         <Projects />
         <Footer />
