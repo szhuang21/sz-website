@@ -5,6 +5,7 @@ import Story from './pages/Story';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import PDF from './pages/PDF';
 /**
  * provides routing to different pages
  */
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/pdf">
+          <PDF />
         </Route>
       </Switch>
     </Router>
