@@ -1,7 +1,6 @@
 import React from 'react';
 import { PDFDocument, StandardFonts } from 'pdf-lib';
 import downloadjs from 'downloadjs';
-import { Helmet } from 'react-helmet-async';
 
 class PDFGenerator extends React.Component {
   async setDocumentMetadata() {
@@ -38,18 +37,6 @@ class PDFGenerator extends React.Component {
   render() {
     return (
       <div>
-        <Helmet>
-          {/* Add Google Tag Manager script */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMBW8PPSR1"></script>
-          <script>
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZMBW8PPSR1');
-          `}
-          </script>
-        </Helmet>
         <p>
           Click the button to set a PDF documents metadata properties with <code>pdf-lib</code>
         </p>

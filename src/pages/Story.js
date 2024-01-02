@@ -5,23 +5,10 @@ import Parents from '../images/parents.jpg';
 import Footer from '../components/Footer';
 import Alert from '../components/Alert';
 import CompletionScreen from '../components/CompletionScreen.tsx';
-import { Helmet } from 'react-helmet-async';
 
 const Story = () => {
   return (
     <div>
-      <Helmet>
-        {/* Add Google Tag Manager script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMBW8PPSR1"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZMBW8PPSR1');
-          `}
-        </script>
-      </Helmet>
       <CompletionScreen />
       <Alert text="🚧 mobile view under construction 🚧" />
       <Header />

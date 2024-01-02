@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import Alert from '../components/Alert';
 import submitted from '../images/submitted.gif';
-import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -110,18 +109,6 @@ const Contact = () => {
 
   return (
     <div>
-      <Helmet>
-        {/* Add Google Tag Manager script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMBW8PPSR1"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZMBW8PPSR1');
-          `}
-        </script>
-      </Helmet>
       <Alert text="🚧 mobile view under construction 🚧" />
       <Header />
 

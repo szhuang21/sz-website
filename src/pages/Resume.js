@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import SophiaResume from '../images/FakeResume.pdf';
-import { Helmet } from 'react-helmet-async';
 
 const Resume = () => {
   const [passwordIsCorrect, setPasswordIsCorrect] = useState(false);
@@ -45,18 +44,6 @@ const Resume = () => {
 
   return (
     <div>
-      <Helmet>
-        {/* Add Google Tag Manager script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMBW8PPSR1"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZMBW8PPSR1');
-          `}
-        </script>
-      </Helmet>
       <Header />
 
       <form onSubmit={handleSubmit} className="mt-5 ml-5">
