@@ -92,12 +92,17 @@ const Story = () => {
             </div>
             <div className="text-base text-left pt-4 font-montserrat text-gray-700">🏌️‍♀️ Golfing</div>
             <div className="text-base text-left pt-4 font-montserrat text-gray-700">🍔 Eating</div>
+            <div className="text-base text-left pt-4 font-montserrat text-gray-700 underline">
+              <a href="https://docs.google.com/document/d/1FrgQCFnPSeOVkkxgvLrdBP76nMC50qwj_C8ZenM2heU/edit?usp=sharing">
+                🥬 My 1500 word Kale Salad Recipe
+              </a>
+            </div>
           </div>
 
           <div className="w-1/2">
             <img src={Parents} alt="Headshot" className="rounded-lg" />
             <div className="text-xs text-left pl-1 pt-1 font-montserrat text-gray-700">
-              pictured: my parentos
+              pictured: mom and dad
             </div>
           </div>
         </div>
