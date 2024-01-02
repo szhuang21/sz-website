@@ -4,12 +4,10 @@ import Cover from '../images/cover.png';
 import Parents from '../images/parents.jpg';
 import Footer from '../components/Footer';
 import Alert from '../components/Alert';
-import CompletionScreen from '../components/CompletionScreen.tsx';
 
 const Story = () => {
   return (
     <div>
-      <CompletionScreen />
       <Alert text="🚧 mobile view under construction 🚧" />
       <Header />
       <div style={{ paddingLeft: '8%', paddingRight: '8%' }} className="pb-12">
