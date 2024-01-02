@@ -5,7 +5,7 @@ import spartify from '../images/spartify.png';
 import webscraper from '../images/webscraper.png';
 import northwestern from '../images/northwestern.png';
 import ExperienceCard from '../components/ExperienceCard';
-
+import ethicsnet from '../images/EthicsNetUserDash.png';
 const Experiences = () => {
   return (
     <div className="">
@@ -14,6 +14,16 @@ const Experiences = () => {
       </div>
 
       <div className="flex flex-wrap">
+        <ExperienceCard
+          name="EthicsNet"
+          blurb="Building ethical AI."
+          about="As a product manager for Hack4Impact this semester, my amazing team of 7 and I worked with the nonprofit, EthicsNet, to develop a way for people to input their personal values into a personalized AI token to share with models like ChatGPT and Dall-E. The project's scope included the token generation and re-design of the annotation suite. Besides getting to work with the client and our designer, Kalyn, to scope out the project and conduct user research, some features that I coded were user dashboard where users could access their tokens and see their annotation analytics."
+          website="https://www.ethicsnet.org/"
+          github="private"
+          skills={['React', 'TypeScript', 'Product']}
+          image={ethicsnet}
+        />
+
         <ExperienceCard
           name="Brink"
           blurb="Working on accessible voting guide for the nonprofit Brink."
