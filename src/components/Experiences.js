@@ -21,7 +21,7 @@ const Experiences = () => {
           about="This project is far from complete, but I wanted to make an easier and more fun way for friends to share superlative voting forms with each other and also display the results like you would see in a yearbook. I built this project this past week during winter break so that I could learn how to use Firebase realtime databases and deployment."
           website="https://seniorsuperlatives-6b973.web.app/"
           github="private"
-          skills={['Firebase', 'Databses', 'React']}
+          skills={['Firebase', 'Databases', 'React']}
           image={seniorSuperlatives}
         />
 
