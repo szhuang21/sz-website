@@ -5,6 +5,8 @@ import spartify from '../images/spartify.png';
 import webscraper from '../images/webscraper.png';
 import northwestern from '../images/northwestern.png';
 import ProjectCard from '../components/ProjectCard';
+import ethicsnet from '../images/EthicsNetUserDash.png';
+import seniorSuperlatives from '../images/SeniorSuperlatives.png';
 
 const Projects = () => {
   return (
@@ -12,6 +14,26 @@ const Projects = () => {
       <div className="text-xl text-center font-bold font-poppins pb-8">Projects</div>
 
       <div className="flex flex-wrap flex align-center items-center justify-center">
+        <ProjectCard
+          name="Senior Superlatives"
+          blurb="Superlative Voting Made Fun!"
+          about="This project is far from complete, but I wanted to make an easier and more fun way for friends to share superlative voting forms with each other and also display the results like you would see in a yearbook. I built this project this past week during winter break so that I could learn how to use Firebase realtime databases and deployment."
+          website="https://seniorsuperlatives-6b973.web.app/"
+          github="private"
+          skills={['Firebase', 'Databases', 'React']}
+          image={seniorSuperlatives}
+        />
+
+        <ProjectCard
+          name="EthicsNet"
+          blurb="Building ethical AI."
+          about="As a product manager for Hack4Impact this semester, my amazing team of 7 and I worked with the nonprofit, EthicsNet, to develop a way for people to input their personal values into a personalized AI token to share with models like ChatGPT and Dall-E. The project's scope included the token generation and re-design of the annotation suite. Besides getting to work with the client and our designer, Kalyn, to scope out the project and conduct user research, some features that I coded were user dashboard where users could access their tokens and see their annotation analytics."
+          website="https://www.ethicsnet.org/"
+          github="private"
+          skills={['React', 'TypeScript', 'Product']}
+          image={ethicsnet}
+        />
+
         <ProjectCard
           name="Brink"
           blurb="Working on accessible voting guide for the nonprofit Brink."
