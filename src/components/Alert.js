@@ -12,7 +12,7 @@ const Alert = (props) => {
     setClosed(false); // Reset the state to false when the component is refreshed
   }, []);
   return (
-    <div className="flex align-center items-center justify-center text-center">
+    <div className="flex align-center items-center justify-center text-center w-screen">
       {!closed ? (
         <div
           className="w-full mr-2 ml-2 mt-2 flex bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded relative"

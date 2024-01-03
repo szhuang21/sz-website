@@ -13,7 +13,6 @@ const Footer = () => {
 
           <p className="text-white text-3xl text-left font-bold font-poppins">SOPHIA ZHUANG</p>
           <div>
-            {' '}
             <div className="text-right pr-8 pt-8 space-x-4 text-white">
               <a href="https://www.linkedin.com/in/sophiazhuang5/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="hover:text-pink-400" size="2x" />
